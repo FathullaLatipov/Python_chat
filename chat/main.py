@@ -47,6 +47,7 @@ async def main():
 
     put_buttons(["Перезайти"], onclick=lambda btn: run_js('window.location.reload(') )
 
+
 async def refresh_msg(nickname, msg_box):
     global chat_msgs
     last_idx = len(chat_msgs)

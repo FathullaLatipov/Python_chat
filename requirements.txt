@@ -1,0 +1,6 @@
+pip==21.3.1
+pywebio==1.4.0.dev2110231113
+setuptools==58.5.2
+tornado==6.1
+ua-parser==0.10.0
+user-agents==2.2.0
