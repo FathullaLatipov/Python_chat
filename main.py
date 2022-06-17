@@ -45,7 +45,7 @@ async def main():
     msg_box.append(put_markdown(f"Пользователь `{nickname}` покинул чат!"))
     chat_msgs.append(('Этот', f"Пользователь `{nickname}` покинул чат!"))
 
-    put_buttons(["Перезайти"], onclick=lambda btn: run_js('window.location.reload(') )
+    put_buttons(["Перезайти"], onclick=lambda btn: run_js('window.location.reload('))
 
 
 async def refresh_msg(nickname, msg_box):
